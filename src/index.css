@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "NicoMoji";
+    src: url("./assests/fonts/Nico-Moji/nicomoji/NicoMoji-Regular.ttf");
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  @font-face {
+    font-family: "Matter";
+    src: url("./assests/fonts/Matter/Matter-Regular.ttf");
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "Poppins";
+    src: url("./assests/fonts/Poppins/Poppins-Regular.ttf");
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "GalleryModern";
+    src: url("./assests/fonts/Gallery/otherFontFiles/gallerymodern-webfont.ttf");
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "UltraSolar";
+    src: url("./assests/fonts/UltraSolar/UltraSolarNormal.ttf");
+  }
 }

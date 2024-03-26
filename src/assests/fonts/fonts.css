@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Nico Moji";
+  src: url("./Nico-Moji/nicomoji/NicoMoji-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Matter";
+  src: url("./Matter/Matter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gallery Modern";
+  src: url("./Gallery/GalleryModern.otf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins/Poppins-Regular.otf");
+}
+
+@font-face {
+  font-family: "UltraSolar";
+  src: url("./UltraSolar/UltraSolarNormal.ttf");
+}
