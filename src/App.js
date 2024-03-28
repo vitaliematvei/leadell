@@ -1,24 +1,19 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Crm from "./components/Crm";
-import Marketing from "./components/Marketing";
-import Cases from "./components/Cases";
-import Automation from "./components/Automation";
-import Challenges from "./components/Challenges";
-import Footer from "./components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Crm from "./pages/Crm";
+import NoPage from "./pages/NoPage";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Crm />
-      <Marketing />
-      <Automation />
-      <Cases />
-      <Challenges />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="*" element={<NoPage />} />
+          <Route index element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/crm" element={<Crm />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
