@@ -18,8 +18,22 @@
 
 @layer base {
   @font-face {
+    font-family: "MatterBold";
+    src: url("./assests/fonts/Matter/Matter-Bold.ttf");
+  }
+}
+
+@layer base {
+  @font-face {
     font-family: "Poppins";
     src: url("./assests/fonts/Poppins/Poppins-Regular.ttf");
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "PoppinsLight";
+    src: url("./assests/fonts/Poppins/Poppins-Light.ttf");
   }
 }
 

@@ -1,5 +1,3 @@
-import React from "react";
-
 const Hero = () => {
   return (
     <section className="max-w-[1512px] mx-auto p-8 md:px-24 md:py-44 text-white bg-black">
