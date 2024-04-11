@@ -36,7 +36,7 @@ function AddressingCrm() {
   return (
     <section className="max-w-[1512px] mx-auto p-10 md:px-24 md:pb-44 text-black bg-white">
       <div className="max-w-[1312] mx-auto">
-        <p className="font-Poppins uppercase text-7xl pb-10 md:pb-20 md:mb-8 mb-4 border-b-2 border-black ">
+        <p className="font-Poppins uppercase md:text-7xl pb-10 md:pb-20 md:mb-8 mb-4 border-b-2 border-black ">
           Addressing the Elephant in the Room:{" "}
           <span className="font-GalleryModern">Why</span>{" "}
           <strong className="font-bold">Trust</strong> Our CRM{" "}
@@ -87,7 +87,7 @@ function AccordionItem({ index, title, prefix, text }) {
         <p>{title}</p>
       </div>
       {isOpen && (
-        <div className="mb-3 md:mb-6 text-md">
+        <div className="mt-3 mb-3 md:mb-6 text-md">
           <span className="font-bold">{prefix}</span>
           {text}
         </div>

@@ -7,6 +7,7 @@ import ChooseCrm from "../components/ChooseCrm";
 import ValueCrm from "../components/ValueCrm";
 import IntegrationCrm from "../components/IntegrationCrm";
 import AddressingCrm from "../components/AddressingCrm";
+import RevolutionizeCRM from "../components/RevolutionizeCRM";
 
 function Crm() {
   return (
@@ -19,6 +20,7 @@ function Crm() {
       <ValueCrm />
       <IntegrationCrm />
       <AddressingCrm />
+      <RevolutionizeCRM />
       <Footer />
     </>
   );

@@ -33,7 +33,7 @@ function ValueCrm() {
   ];
   return (
     <section className="max-w-[1512px] mx-auto px-10 md:px-24 py-5 md:py-20 text-white bg-black">
-      <h1 className="font-MatterBold font-bold text-3xl md:text-5xl lg:text-6xl">
+      <h1 className="font-MatterBold font-bold text-2xl md:text-5xl lg:text-6xl">
         Value of CRM Integration
       </h1>
 
@@ -43,11 +43,11 @@ function ValueCrm() {
             <span className="opacity-20 text-6xl md:text-8xl ml-5 font-Poppins">
               {item[0]}
             </span>
-            <p className="absolute uppercase self-center font-Matter text-2xl md:text-4xl">
+            <p className="absolute uppercase self-center font-Matter text-xl md:text-4xl">
               {item[1]}
             </p>
           </div>
-          <div className="grid md:grid-cols-2 mb-7 gap-8 md:text-3xl text-xl font-Matter">
+          <div className="grid md:grid-cols-2 mb-7 gap-8 md:text-3xl text-md font-Matter">
             <div className="md:mb-8">
               <span className="text-sm text-gray-500">Before</span>
               <p>{item[2]}</p>

@@ -8,7 +8,7 @@ function HeroCrm() {
         <p className="mt-2 md:mt-8 text-md text-gray-500 font-Poppins italic">
           Unlock Superior Sales & Streamlined Management with CRM
         </p>
-        <h2 className="font-Matter text-4xl leading-loose mt-16 lg:mt-48">
+        <h2 className="font-Matter md:text-4xl leading-loose mt-16 lg:mt-48">
           The future of successful business lies in smart systems. A Customer
           Relationship Management (CRM) system is not just about managing your
           customer interactions — it's about gaining insights, boosting sales,

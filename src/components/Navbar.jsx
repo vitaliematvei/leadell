@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <section className="max-w-[1512px] mx-auto p-4 text-white bg-black b-0">
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center mx-3">
         <a
           href="/"
           className="text-2xl font-bold uppercase font-NicoMoji hover:text-gray-400"
