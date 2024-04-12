@@ -3,7 +3,8 @@ import { useState } from "react";
 const faqs = [
   {
     title: ' "Will the transition disrupt my current operations?"',
-    text: "Our Promise: We prioritize a seamless integration process. Our team works closely with yours, often during off-peak hours, to ensure minimal disruptions. Plus, we provide comprehensive training so your team can hit the ground running",
+    prefix: "Our Promise:",
+    text: "We prioritize a seamless integration process. Our team works closely with yours, often during off-peak hours, to ensure minimal disruptions. Plus, we provide comprehensive training so your team can hit the ground running",
   },
   {
     title: ' "Is the ROI really worth the investment?"',
@@ -32,21 +33,17 @@ const faqs = [
   },
 ];
 
-function AddressingCrm() {
+function ConcernsZoho() {
   return (
     <section className="max-w-[1512px] mx-auto p-10 md:px-24 md:pb-44 text-black bg-white">
       <div className="max-w-[1312] mx-auto">
         <p className="font-Poppins uppercase md:text-7xl pb-10 md:pb-20 md:mb-8 mb-4 border-b-2 border-black ">
-          Addressing the Elephant in the Room:{" "}
-          <span className="font-GalleryModern">Why</span>{" "}
-          <strong className="font-bold">Trust</strong> Our CRM{" "}
-          <strong>&lt;Integration/&gt;</strong> Process?
+          Your Concerns <span className="font-GalleryModern">Matter</span> To Us
         </p>
         <p className="font-Matter text-md">
-          We get it. Embracing a new system, especially one as integral as CRM,
-          can be daunting. You might have concerns about disruptions, costs, or
-          even the tangible benefits of such a transition. Let’s tackle some
-          common reservations:
+          Embarking on a CRM integration journey is a significant decision, and
+          it's only natural to have concerns. Let us address some common
+          questions we encounter:
         </p>
 
         <Accordion data={faqs} />
@@ -55,7 +52,7 @@ function AddressingCrm() {
   );
 }
 
-export default AddressingCrm;
+export default ConcernsZoho;
 
 function Accordion({ data }) {
   return (

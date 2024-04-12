@@ -1,12 +1,13 @@
 import RevolutionizeImg from "../assests/images/LetGetStart.svg";
-function RevolutionizeCRM() {
+
+function RevolutionizeZoho() {
   return (
     <section className="max-w-[1512px] mx-auto p-10 md:px-24 md:py-18 text-black bg-white">
       <div className="max-w-[1171] mx-auto text-center text-4xl md:text-6xl lg:text-8xl uppercase font-Matter">
         <p className="mb-2">
           Ready to{" "}
           <span className="font-GalleryModern underline">Revolutionize</span>{" "}
-          Your Business
+          Your Business Processes?
         </p>
       </div>
       <img
@@ -18,4 +19,4 @@ function RevolutionizeCRM() {
   );
 }
 
-export default RevolutionizeCRM;
+export default RevolutionizeZoho;

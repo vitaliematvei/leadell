@@ -12,6 +12,7 @@ const Navbar = () => {
   const navigationItems = [
     { label: "Home", href: "/" },
     { label: "Crm", href: "/crm" },
+    { label: "Zoho", href: "/zoho" },
     { label: "Resources", href: "/resources" },
     { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" },
