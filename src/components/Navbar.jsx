@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { IoCloseSharp } from "react-icons/io5";
 
-const Navbar = () => {
+const Navbar = ({ color, bg }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -13,13 +13,11 @@ const Navbar = () => {
     { label: "Home", href: "/" },
     { label: "Crm", href: "/crm" },
     { label: "Zoho", href: "/zoho" },
-    { label: "Resources", href: "/resources" },
-    { label: "About", href: "/about" },
-    { label: "Contact", href: "/contact" },
+    { label: "Case", href: "/case" },
   ];
 
   return (
-    <section className="max-w-[1512px] mx-auto p-4 text-white bg-black b-0">
+    <section className={`max-w-[1512px] mx-auto p-4 b-0 ${color} ${bg}`}>
       <div className="flex justify-between items-center mx-3">
         <a
           href="/"
@@ -60,7 +58,9 @@ const Navbar = () => {
           <IoCloseSharp size={25} />
         </button>
 
-        <ul className="mt-14 space-y-4 block md:hidden fixed top-0 right-0 bg-black w-[50%]  h-screen">
+        <ul
+          className={`mt-14 space-y-4 block md:hidden fixed top-0 right-0 w-[50%] h-screen ${color} ${bg}`}
+        >
           {navigationItems.map((item) => (
             <li key={item.label} className="p-2 hover:text-gray-400">
               <a href={item.href} className="block text-lg font-Matter">

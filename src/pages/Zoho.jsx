@@ -12,7 +12,7 @@ import Footer from "../components/Footer";
 function Zoho() {
   return (
     <div>
-      <Navbar />
+      <Navbar color="text-white" bg="bg-black" />
       <HeroZoho />
       <ChooseZoho />
       <ChooseCrm />

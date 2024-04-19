@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 function Home() {
   return (
     <div>
-      <Navbar />
+      <Navbar color="text-white" bg="bg-black" />
       <Hero />
       <Crm />
       <Marketing />

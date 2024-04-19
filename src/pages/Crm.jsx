@@ -12,7 +12,7 @@ import RevolutionizeCRM from "../components/RevolutionizeCRM";
 function Crm() {
   return (
     <>
-      <Navbar />
+      <Navbar color="text-white" bg="bg-black" />
       <HeroCrm />
       <ImplementCrm />
       <TrustedCrm />
