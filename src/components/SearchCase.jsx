@@ -86,10 +86,10 @@ function SearchCase() {
     );
 
   return (
-    <section className="max-w-[1512px] mx-auto p-8 md:px-24 md:py-44 text-black bg-white">
+    <section className="max-w-[1512px] mx-auto p-8 md:px-24 md:py-10 text-black bg-white">
       <div className="max-w-[1296] mx-auto">
-        <div className="bg-gray-100 flex py-4 px-4 rounded-lg">
-          <div className="">
+        <div className="bg-gray-100 flex py-4 px-4 rounded-lg justify-between ">
+          <div className="my-auto">
             <div className="bg-white border rounded-full py-1">
               <span className="px-2"></span>
               <input
@@ -133,6 +133,20 @@ function SearchCase() {
                 </tbody>
               </table>
             )}
+          </div>
+          <div className="font-Matter flex justify-between align-center gap-20">
+            <div className="flex-col text-center px-2">
+              <p>📗</p>
+              <p>Specialities</p>
+            </div>
+            <div className="flex-col text-center px-2">
+              <p>🆕</p>
+              <p>News</p>
+            </div>
+            <div className="flex-col text-center px-2">
+              <p>💰</p>
+              <p>Price</p>
+            </div>
           </div>
         </div>
       </div>
