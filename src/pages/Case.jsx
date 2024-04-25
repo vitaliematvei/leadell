@@ -3,6 +3,7 @@ import HeroCase from "../components/HeroCase";
 import SearchCase from "../components/SearchCase";
 import TrainingCase from "../components/TrainingCase";
 import ScheduleCase from "../components/ScheduleCase";
+import ChallengeCase from "../components/ChallengeCase";
 
 import Footer from "../components/Footer";
 
@@ -14,6 +15,7 @@ function Case() {
       <SearchCase />
       <TrainingCase />
       <ScheduleCase />
+      <ChallengeCase />
 
       <Footer />
     </>
